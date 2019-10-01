@@ -135,6 +135,7 @@ func decodeMods(r io.Reader) map[string]string {
 	}
 	return mods
 }
+
 func normalizeVersion(version string) string {
 	if strings.Contains(version, "+") {
 		version = strings.Split(version, "+")[0]
