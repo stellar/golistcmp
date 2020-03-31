@@ -141,7 +141,15 @@ func normalizeVersion(version string) string {
 		version = strings.Split(version, "+")[0]
 	}
 	if strings.Contains(version, "-") {
-		version = strings.Split(version, "-")[2]
+		parts := strings.Split(version, "-")
+		// If the version doesn't have three parts then it is a custom named
+		// version and we should just return it as is.
+		if len(parts) < 3 {
+			return version
+		}
+		// If the version has three parts the last part should be the commit
+		// hash and that is essentially the version.
+		version = parts[2]
 	}
 	return version
 }
