@@ -66,3 +66,4 @@
  65	gopkg.in/go-playground/assert.v1				+	v1.2.1		https://gopkg.in/go-playground/assert.v1					
  66	gopkg.in/go-playground/validator.v8				+	v8.18.2		https://gopkg.in/go-playground/validator.v8					
  67	gopkg.in/mgo.v2							+	9856a29383ce	https://gopkg.in/mgo.v2								
+ 68	honnef.co/go/tools				c2f93a96b099	>	v0.0.1-2020.1.3											

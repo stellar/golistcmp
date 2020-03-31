@@ -810,3 +810,10 @@
 	"Dir": "/home/leighmcculloch/go/pkg/mod/gopkg.in/yaml.v2@v2.2.2",
 	"GoMod": "/home/leighmcculloch/go/pkg/mod/cache/download/gopkg.in/yaml.v2/@v/v2.2.2.mod"
 }
+{
+	"Path": "honnef.co/go/tools",
+	"Version": "v0.0.0-20190102054323-c2f93a96b099",
+	"Time": "2019-01-02T05:43:23Z",
+	"Indirect": true,
+	"GoMod": "/home/leighmcculloch/go/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.0-20190102054323-c2f93a96b099.mod"
+}
