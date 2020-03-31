@@ -1,4 +1,7 @@
 # golistcmp
+
+[![Build Status](https://github.com/stellar/golistcmp/workflows/Go/badge.svg)](https://github.com/stellar/golistcmp/actions)
+
 A tool for comparing the output of `go list -m -json` executions.
 
 ## Install
